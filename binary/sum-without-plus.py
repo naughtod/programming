@@ -7,7 +7,7 @@ class Solution(object):
         """
         mask = 0xffffffff
         while b:
-		    sum = (a^b) & mask
+			sum = (a^b) & mask
 			carry = ((a&b)<<1) & mask
             a = sum
 			b = carry
