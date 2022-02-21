@@ -12,6 +12,6 @@ class Solution(object):
             a = sum
 			b = carry
 
-		if (a>>31) & 1: # If a is negative in 32 bits sense
+		if (a>>31) & 1: 
 			return ~(a^mask)
 		return a
